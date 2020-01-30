@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  python:
+    build:
+      context: .
+      dockerfile: ./dockers/Dockerfile
+    volumes:
+    - ./source:/source
+ 
