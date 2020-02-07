@@ -8,7 +8,7 @@ def tupla_par(tupla):
     '''
     lista = []
     for elemento in tupla:
-        if elemento% 2 == int():
+        if elemento % 2 == int():
             lista.append(elemento)
             nova_tupla = tuple(lista)
     print(nova_tupla)
